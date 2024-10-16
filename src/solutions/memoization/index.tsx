@@ -8,7 +8,7 @@ const MemoizationPage = () => {
       return num1 * num2;
     };
 
-    const memoize = (fn: (num1: number, num2: number) => number) => {
+    const memoizeProduct = () => {
       // write your code here.
       const cache: { [key: string]: number } = {};
       return (num1: number, num2: number) => {
@@ -16,14 +16,14 @@ const MemoizationPage = () => {
         if (cache[key]) {
           return cache[key];
         } else {
-          const result = fn(num1, num2);
+          const result = product(num1, num2);
           cache[key] = result;
           return result;
         }
       };
     };
 
-    const memoProduct = memoize(product);
+    const memoProduct = memoizeProduct();
 
     const first = performance.now();
     console.log(`Result: `, memoProduct(123893, 1299123));

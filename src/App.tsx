@@ -1,3 +1,4 @@
+import FlattenANestedObject from "./solutions/flatten-a-nested-object";
 import FullScreenModal from "./solutions/full-screen-modal";
 import { JobFeed } from "./solutions/job-feed";
 import LocalStorageCustomHook from "./solutions/local-storage-custom-hook";
@@ -11,7 +12,8 @@ function App() {
       {/* <UseKeyPressHook /> */}
       {/* <LocalStorageCustomHook /> */}
       {/* <JobFeed /> */}
-      <MemoizationPage />
+      {/* <MemoizationPage /> */}
+      <FlattenANestedObject />
     </>
   );
 }
