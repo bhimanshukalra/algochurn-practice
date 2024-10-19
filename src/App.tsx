@@ -1,5 +1,6 @@
 import CountriesListWithDebounce from "./solutions/countries-list-with-debounce";
 import FlattenANestedObject from "./solutions/flatten-a-nested-object";
+import FolderStructure from "./solutions/folder-structure";
 import FullScreenModal from "./solutions/full-screen-modal";
 import { JobFeed } from "./solutions/job-feed";
 import LocalStorageCustomHook from "./solutions/local-storage-custom-hook";
@@ -15,7 +16,8 @@ function App() {
       {/* <JobFeed /> */}
       {/* <MemoizationPage /> */}
       {/* <FlattenANestedObject /> */}
-      <CountriesListWithDebounce />
+      {/* <CountriesListWithDebounce /> */}
+      <FolderStructure />
     </>
   );
 }
