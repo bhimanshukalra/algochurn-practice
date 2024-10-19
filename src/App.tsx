@@ -3,6 +3,7 @@ import FlattenANestedObject from "./solutions/flatten-a-nested-object";
 import FolderStructure from "./solutions/folder-structure";
 import FullScreenModal from "./solutions/full-screen-modal";
 import { JobFeed } from "./solutions/job-feed";
+import LightboxGallery from "./solutions/lightbox-gallary";
 import LocalStorageCustomHook from "./solutions/local-storage-custom-hook";
 import MemoizationPage from "./solutions/memoization";
 import TransferList from "./solutions/transfer-list";
@@ -19,7 +20,8 @@ function App() {
       {/* <FlattenANestedObject /> */}
       {/* <CountriesListWithDebounce /> */}
       {/* <FolderStructure /> */}
-      <TransferList />
+      {/* <TransferList /> */}
+      <LightboxGallery />
     </>
   );
 }
