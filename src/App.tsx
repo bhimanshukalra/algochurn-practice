@@ -13,6 +13,7 @@ import TransferList from "./solutions/transfer-list";
 import UseKeyPressHook from "./solutions/usekeypress-custom-hook";
 import ToastAndNotification from "./solutions/toasts-and-notifications";
 import Polyfills from "./solutions/polyfills";
+import FeedbackStars from "./solutions/feedback-stars";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <TransferList /> */}
       {/* <LightboxGallery /> */}
       {/* <ToastAndNotification /> */}
-      <Polyfills />
+      {/* <Polyfills /> */}
+      <FeedbackStars />
     </>
   );
 }
