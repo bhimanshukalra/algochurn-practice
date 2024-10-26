@@ -12,6 +12,7 @@ import MemoizationPage from "./solutions/memoization";
 import TransferList from "./solutions/transfer-list";
 import UseKeyPressHook from "./solutions/usekeypress-custom-hook";
 import ToastAndNotification from "./solutions/toasts-and-notifications";
+import Polyfills from "./solutions/polyfills";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <FolderStructure /> */}
       {/* <TransferList /> */}
       {/* <LightboxGallery /> */}
-      <ToastAndNotification />
+      {/* <ToastAndNotification /> */}
+      <Polyfills />
     </>
   );
 }
