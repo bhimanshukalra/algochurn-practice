@@ -14,6 +14,7 @@ import UseKeyPressHook from "./solutions/usekeypress-custom-hook";
 import ToastAndNotification from "./solutions/toasts-and-notifications";
 import Polyfills from "./solutions/polyfills";
 import FeedbackStars from "./solutions/feedback-stars";
+import CountDownTimer from "./solutions/countdown-timer";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
       {/* <LightboxGallery /> */}
       {/* <ToastAndNotification /> */}
       {/* <Polyfills /> */}
-      <FeedbackStars />
+      {/* <FeedbackStars /> */}
+      <CountDownTimer />
     </>
   );
 }

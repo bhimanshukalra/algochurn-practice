@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
 import { useEffect, useState } from "react";
 
 const Polyfills = () => {
@@ -65,7 +67,6 @@ const myPromiseAll = (promises) => {
     promises.forEach(async (promiseItem) => {
       try {
         const data = await promiseItem;
-        console.log("promiseItem", promiseItem, data);
         result.push(data);
       } catch (e) {
         console.error(e);
