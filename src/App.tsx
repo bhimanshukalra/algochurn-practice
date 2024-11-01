@@ -16,6 +16,7 @@ import Polyfills from "./solutions/polyfills";
 import FeedbackStars from "./solutions/feedback-stars";
 import CountDownTimer from "./solutions/countdown-timer";
 import { InsertTextInDocument } from "./solutions/insert-text-in-document";
+import { SelectAllCheckboxes } from "./solutions/select-all-checkboxes";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
       {/* <Polyfills /> */}
       {/* <FeedbackStars /> */}
       {/* <CountDownTimer /> */}
-      <InsertTextInDocument />
+      {/* <InsertTextInDocument /> */}
+      <SelectAllCheckboxes />
     </>
   );
 }
