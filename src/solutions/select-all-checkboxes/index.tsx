@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { list } from "./data";
+import { CheckBox } from "./CheckBox";
 
 type Data = {
   id: number;
@@ -31,13 +32,13 @@ export const SelectAllCheckboxes = () => {
   };
 
   return (
-    <div className="flex flex-col m-2">
+    <div className="m-2">
       <CheckBox
         checked={data.every((item) => item.isChecked)}
         onChange={onChangeSelectAll}
         label={"Select All"}
       />
-      <form>
+      <form className="flex flex-col">
         {data.map((item, index) => (
           <CheckBox
             key={item.id}
@@ -50,25 +51,3 @@ export const SelectAllCheckboxes = () => {
     </div>
   );
 };
-
-type CheckBoxProps = {
-  checked?: boolean;
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  label: string;
-};
-
-function CheckBox({ checked, onChange, label }: CheckBoxProps) {
-  return (
-    <>
-      <label>
-        <input
-          type="checkbox"
-          onChange={onChange}
-          className="me-2"
-          checked={checked ?? false}
-        />
-        {label}
-      </label>
-    </>
-  );
-}

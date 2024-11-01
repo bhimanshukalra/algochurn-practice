@@ -17,6 +17,7 @@ import FeedbackStars from "./solutions/feedback-stars";
 import CountDownTimer from "./solutions/countdown-timer";
 import { InsertTextInDocument } from "./solutions/insert-text-in-document";
 import { SelectAllCheckboxes } from "./solutions/select-all-checkboxes";
+import { ImplementCurrying } from "./solutions/implement-currying";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <FeedbackStars /> */}
       {/* <CountDownTimer /> */}
       {/* <InsertTextInDocument /> */}
-      <SelectAllCheckboxes />
+      {/* <SelectAllCheckboxes /> */}
+      <ImplementCurrying />
     </>
   );
 }
