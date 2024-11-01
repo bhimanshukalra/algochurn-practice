@@ -18,6 +18,7 @@ import CountDownTimer from "./solutions/countdown-timer";
 import { InsertTextInDocument } from "./solutions/insert-text-in-document";
 import { SelectAllCheckboxes } from "./solutions/select-all-checkboxes";
 import { ImplementCurrying } from "./solutions/implement-currying";
+import { UseOutsideClickCustomHook } from "./solutions/useoutsideclick-custom-hook";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
       {/* <CountDownTimer /> */}
       {/* <InsertTextInDocument /> */}
       {/* <SelectAllCheckboxes /> */}
-      <ImplementCurrying />
+      {/* <ImplementCurrying /> */}
+      <UseOutsideClickCustomHook />
     </>
   );
 }
