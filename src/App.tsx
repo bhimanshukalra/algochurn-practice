@@ -15,6 +15,7 @@ import ToastAndNotification from "./solutions/toasts-and-notifications";
 import Polyfills from "./solutions/polyfills";
 import FeedbackStars from "./solutions/feedback-stars";
 import CountDownTimer from "./solutions/countdown-timer";
+import { InsertTextInDocument } from "./solutions/insert-text-in-document";
 /* eslint-enable @typescript-eslint/no-unused-vars */
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* <ToastAndNotification /> */}
       {/* <Polyfills /> */}
       {/* <FeedbackStars /> */}
-      <CountDownTimer />
+      {/* <CountDownTimer /> */}
+      <InsertTextInDocument />
     </>
   );
 }
